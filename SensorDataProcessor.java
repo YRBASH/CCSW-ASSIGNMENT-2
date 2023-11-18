@@ -8,13 +8,21 @@ package Original_Code;
  *
  * @author USER
  */
+
+// Missing Imports -sahar turki 2111421
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
 public class SensorDataProcessor {
     
     // Senson data and limits.
 public double[][][] data;
 public double[][] limit;
 // constructor
-public DataProcessor(double[][][] data, double[][] limit) {
+//Naming Inconsistency-sahar turki 2111421
+public SensorDataProcessor(double[][][] data, double[][] limit) {
 this.data = data;
 this.limit = limit;
     
